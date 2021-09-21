@@ -1,0 +1,47 @@
+            $third-color: rgb(23, 162, 184);
+            Form {
+                max-width: 400px;
+                min-width: 260px;
+                width: 80vw;
+            }
+            
+            .formular {
+                padding-top: 30px;
+            }
+            
+            .center {
+                display: flex;
+                flex-direction: column;
+                //height: 100vh;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .title {
+                min-width: 260px;
+                font-weight: 700;
+                font-size: 4em;
+                margin-top: 3em;
+                text-align: center;
+                color: $third-color;
+            }
+            
+            Button {
+                margin-bottom: 50px;
+                margin-top: 30px;
+                margin-right: 16px;
+            }
+            
+            @media all and (max-width: 400px) {
+                .title {
+                    font-size: 3.6em;
+                    margin-top: 250px;
+                }
+            }
+            
+            @media all and (max-width: 320px) {
+                .title {
+                    font-size: 3em;
+                    margin-top: 250px;
+                }
+            }
